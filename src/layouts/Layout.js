@@ -312,7 +312,7 @@ export const Layout = ({ children }) => {
 
     <li className=" ">
 
-      <a href="/it/piattaforme" className="Linklist-link ">
+      <a href="https://developers.italia.it/it/piattaforme" className="Linklist-link ">
 
         Piattaforme
 
@@ -362,7 +362,7 @@ export const Layout = ({ children }) => {
     <li className=" ">
 
 
-      <a href="/it/news" className="Linklist-link ">
+      <a href="https://developers.italia.it/it/news" className="Linklist-link ">
 
         News
 
@@ -374,7 +374,7 @@ export const Layout = ({ children }) => {
     <li className=" ">
 
 
-      <a href="/it/contatti" className="Linklist-link ">
+      <a href="https://developers.italia.it/it/contatti" className="Linklist-link ">
 
         Contatti
 
@@ -401,7 +401,7 @@ export const Layout = ({ children }) => {
     <li className=" ">
 
 
-      <a href="/it/piattaforme" className="Linklist-link ">
+      <a href="https://developers.italia.it/it/piattaforme" className="Linklist-link ">
 
         Piattaforme
 
@@ -413,7 +413,7 @@ export const Layout = ({ children }) => {
     <li className=" ">
 
 
-      <a href="/it/software" className="Linklist-link ">
+      <a href="https://developers.italia.it/it/software" className="Linklist-link ">
 
         Software
 
@@ -473,7 +473,7 @@ export const Layout = ({ children }) => {
     <li className=" ">
 
 
-      <a href="/it/contatti" className="Linklist-link ">
+      <a href="https://developers.italia.it/it/contatti" className="Linklist-link ">
 
         Contatti
 
@@ -494,9 +494,7 @@ export const Layout = ({ children }) => {
 <div className="apilist">
   <div className="container">
     <section className="apilist__content mt-2 mt-md-5 pt-2 pt-md-4 pb-2">
-      <h1>API</h1>
       {children}
-
     </section>
   </div>
 </div>

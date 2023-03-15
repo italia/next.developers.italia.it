@@ -1,0 +1,50 @@
+{
+  "name": "Developers Italia",
+  "version": "1.0.0",
+  "description": "Sito https://next.developers.italia.it/",
+  "main": "src/pages/index.js",
+  "repository": "git@github.com:italia/next.developers.italia.it.git",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "deploy": "gh-pages -u 'Deploy Bot <no-reply@teamdigitale.governo.it>' -d public",
+    "lint": "eslint src --ext .js",
+    "html-proofer": "docker-compose up --build",
+    "pa11y": "./pa11y.sh",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@fontsource/lora": "^4.5.13",
+    "@fontsource/titillium-web": "^4.5.9",
+    "bootstrap-italia": "^1",
+    "classnames": "^2.3.2",
+    "gatsby": "^5",
+    "gatsby-plugin-image": "^3.7.0",
+    "gatsby-plugin-matomo": "^0.14.0",
+    "gatsby-plugin-sass": "^6.7.0",
+    "luxon": "^3.3.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-jss": "^10.10.0",
+    "sass": "^1.59.3",
+    "swiper": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-react-app": "^7.0.1",
+    "gatsby-plugin-jss": "^5",
+    "gatsby-plugin-react-helmet": "^6",
+    "gatsby-plugin-sharp": "^5",
+    "gatsby-plugin-sitemap": "^6",
+    "gatsby-remark-images": "^7",
+    "gatsby-source-filesystem": "^5",
+    "gatsby-transformer-remark": "^6",
+    "gatsby-transformer-sharp": "^5",
+    "gh-pages": "^5.0.0",
+    "pa11y-ci": "^3.0.1",
+    "remark-attr": "^0.11.1"
+  }
+}

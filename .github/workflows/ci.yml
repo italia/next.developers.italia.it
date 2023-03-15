@@ -1,0 +1,19 @@
+on: pull_request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Check all template data was replaced
+        if: ${{ github.repository != 'teamdigitale/gatsby-site' }}
+        run: grep CHANGE[M]E -r . && (echo "Replace all occurrences with values relevant to this site"; exit 1)
+
+      - run: npm ci
+      - run: npm run clean
+      - run: npm run build
+      - run: npm run lint

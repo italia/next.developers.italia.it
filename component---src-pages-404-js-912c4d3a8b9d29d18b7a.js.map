@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-404-js-912c4d3a8b9d29d18b7a.js","mappings":"+IAGA,UADaA,IAAOC,EAAAA,cAAA,W","sources":["webpack://Developers Italia/./src/pages/404.js"],"sourcesContent":["import React from 'react';\n\nconst Page = () => (<div></div>);\nexport default Page;\n"],"names":["Page","React"],"sourceRoot":""}

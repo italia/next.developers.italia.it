@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
+
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import './main.scss';
 import { createUseStyles } from 'react-jss';
@@ -334,9 +336,9 @@ export const Layout = ({ children }) => {
 
 
     <li className=" active">
-      <a href="https://developers.italia.it/it/api" className="Linklist-link ">
+      <Link to="/it/interoperabilita" className="Linklist-link ">
         Interoperabilità
-      </a>
+      </Link>
     </li>
 
 

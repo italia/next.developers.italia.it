@@ -106,7 +106,7 @@ const Page = () => (
         <button type="button" className="btn btn-outline-secondary">Scopri di più</button>
       </div>
       <div className="col-md-6 mt-4">
-        <img src="http://via.placeholder.com/420x600" />
+        <img width="100%" src="/assets/graph.svg" alt="" />
       </div>
     </div>
 
@@ -115,6 +115,7 @@ const Page = () => (
       <div className="row">
         <div className="col-md-6">
           <div className="row">
+            <img width="36px" src="/assets/smile.svg" alt="" />
             <h4>Cittadino</h4>
             <p>Semplificazione dei servizi offerti a cittadini e imprese</p>
           </div>

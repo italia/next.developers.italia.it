@@ -1955,6 +1955,18 @@ body {
     padding: 0;
 }
 
+.btn-outline-secondary:hover {
+  background: inherit !important
+}
+
+.background-color-1 {
+  background-color: #e5f1fc;
+}
+
+.background-color-2 {
+  background-color: #2079d4;
+}
+
 .text-divider {
     margin: 0 1em;
     &:before {

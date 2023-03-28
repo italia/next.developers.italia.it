@@ -493,14 +493,7 @@ export const Layout = ({ children }) => {
   </div>
 </section>
 
-<div className="apilist">
-  <div className="container">
-    <section className="apilist__content mt-2 mt-md-5 pt-2 pt-md-4 pb-2">
-      {children}
-    </section>
-  </div>
-</div>
-
+{children}
   </div>
 </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Page = () => (
   <>
@@ -40,7 +41,7 @@ const Page = () => (
             </p>
 
             <h5 className="h6">Strumenti correlati</h5>
-            <p><a href="#">Catalogo API</a></p>
+            <p><Link to="/it/accessibilita/api">Catalogo API</Link></p>
             <p>
               <a href="#">
                 Base Dati di Interesse Nazionale (BDIN)
@@ -122,19 +123,19 @@ const Page = () => (
             </p>
             <button type="button" className="btn btn-outline-secondary mb-4">Scopri di più</button>
 
-            <h3 className="h5 mt-4">Schema</h3>
-            <p>
-              È il catalogo nazionale della semantica dei dati che permette di ricercare
-              e utilizzare risorse già standardizzate e condivise per supportare lo
-              sviluppo di API semanticamente e sintatticamente interoperabili
-            </p>
-            <button type="button" className="btn btn-outline-secondary mb-4">Scopri di più</button>
-
             <h3 className="h5 mt-4">Catalogo API</h3>
             <p>
               Promuove la visibilità e l’uso degli e-service pubblicati su PDND, permettendo
               agli enti di valutare come integrarli efficacemente con i propri servizi, rendendoli
               ancora più funzionali per l’utente
+            </p>
+            <Link className="btn btn-outline-secondary mb-4" to="/it/interoperabilita/api">Scopri di più</Link>
+
+            <h3 className="h5 mt-4">Schema</h3>
+            <p>
+              Altrimenti conosciuto come National Data Catalog (NDC) è il catalogo nazionale della
+              semantica dei dati che permette di ricercare e utilizzare risorse già standardizzate e condivise
+              per supportare lo sviluppo di API semanticamente e sintatticamente interoperabili.
             </p>
             <button type="button" className="btn btn-outline-secondary">Scopri di più</button>
           </div>
@@ -156,8 +157,8 @@ const Page = () => (
               <img src="/assets/smile.svg" alt="" className="img-fluid" />
             </div>
             <div class="col-8">
-              <h4 className="text-muted">Cittadini e imprese</h4>
-              <p>Semplificazione dei servizi offerti a cittadini e imprese</p>
+              <h4 className="text-muted">Persone fisiche e imprese</h4>
+              <p>Semplificazione dei servizi offerti a persone fisiche e imprese</p>
             </div>
           </div>
         </div>
@@ -171,7 +172,7 @@ const Page = () => (
               <h4 className="text-muted">Ente</h4>
               <p>
                 Facilitazione e sicurezza dello scambio dati tramite la standardizzazione
-                del processo per enti erogatori e fruitori
+                del processo per enti
               </p>
             </div>
           </div>
@@ -185,7 +186,7 @@ const Page = () => (
               <img src="/assets/smile.svg" alt="" className="img-fluid" />
             </div>
             <div class="col-8">
-              <h4 className="text-muted">Sviluppatori</h4>
+              <h4 className="text-muted">Developer</h4>
               <p>
                 Integrazione degli e-service attraverso gli standard offerti dalla
                 Piattaforma Digitale Nazionale Dati (PDND)
@@ -200,7 +201,7 @@ const Page = () => (
               <img src="/assets/happy-privacy.svg" alt="" className="img-fluid" />
             </div>
             <div class="col-8">
-              <h4 className="text-muted">Responsabile per la protezione dei dati (DPO)</h4>
+              <h4 className="text-muted">Responsabile per la protezione dei dati (RPD)</h4>
               <p>
                 Standardizzazione del processo per tutti coloro che aderiscono e
                 riutilizzo di quanto messo a disposizione dagli altri

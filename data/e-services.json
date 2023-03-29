@@ -1,0 +1,811 @@
+[{
+		"interface": {
+			"filename": "a9c27d70-f8a5-4a13-9450-1b813d8d5225.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "3de92a45-90d8-44fb-b0e6-0fda58123377",
+			"state": "PUBLISHED",
+			"version": "7"
+		},
+		"technology": "REST",
+		"producerName": "Ufficio Nazionale per la Tutela della Salute Mentale",
+		"id": "9d6f2a6a-53e7-49f5-9196-83f3d72f6637",
+		"name": "Servizio di Informazioni sui Diritti dei Consumatori",
+		"description": "Fornisce informazioni sulle leggi a tutela dei consumatori, su come fare reclami e su come evitare truffe e frodi commerciali",
+		"docs": [{
+			"filename": "3c09c89d-9bf2-4248-b864-cc50d708c7a3.pdf",
+			"prettyName": "Specifiche tecniche per la progettazione di un'applicazione web"
+		}, {
+			"filename": "c663bb37-2a27-4c2d-8c23-af9a37c1e7bc.zip",
+			"prettyName": "Documento di analisi dei requisiti per un sistema di gestione aziendale"
+		}, {
+			"filename": "2d2fbfc7-7791-4c45-bb3e-b3a72a35bf2e.pdf",
+			"prettyName": "Manuale utente per un'applicazione di e-commerce"
+		}, {
+			"filename": "9fa12419-36eb-48de-a85c-34368e63606a.pdf",
+			"prettyName": "Relazione tecnica per l'implementazione di un algoritmo di intelligenza artificiale"
+		}, {
+			"filename": "4c39dbad-9b0a-4f54-99d6-5515ee5e5d98.zip",
+			"prettyName": "Studio di fattibilità per la realizzazione di un'applicazione mobile"
+		}, {
+			"filename": "c4c4d2ee-4f31-4a63-b6c4-6a4b8005e5de.pdf",
+			"prettyName": "Relazione di progetto per un sistema di monitoraggio dei processi aziendali"
+		}],
+		"attributes": {
+			"certified": [{
+					"group": [{
+							"description": "Etiam vel libero in turpis consequat hendrerit vitae sit amet neque. Donec at odio lacus. Sed quis tellus vel enim semper fermentum sed a purus.",
+							"name": "Agenzie Ambientali"
+						},
+						{
+							"single": {
+								"description": "Phasellus euismod tempus semper. Nunc vel pretium neque, sit amet dignissim massa. Duis dictum aliquet magna, eu consectetur enim tincidunt eget.",
+								"name": "Organizzazioni non governative"
+							}
+						}
+					]
+				},
+				{
+					"single": {
+						"description": "Praesent porttitor magna nec gravida tristique. Sed eu justo eget tellus fringilla auctor in ut odio. Duis bibendum justo at massa vestibulum congue.",
+						"name": "Imprese private"
+					}
+				}
+			],
+			"declared": [{
+					"group": [{
+						"description": "Sed dapibus aliquet nisl, nec faucibus ex bibendum eget. Donec ut aliquam odio. In sit amet blandit velit.",
+						"name": "Dichiarazione ex art. 13 D.Lgs. 196/2003"
+					}]
+				},
+				{
+					"single": {
+						"description": "Morbi euismod volutpat risus. Proin varius tellus eu neque auctor, vel consectetur metus mattis. Aliquam ac mi eget purus elementum luctus.",
+						"name": "Autocertificazione di residenza"
+					}
+				}
+			],
+			"verified": [{
+				"group": [{
+						"description": "Maecenas bibendum congue elit eget pretium. Aliquam erat volutpat. Praesent quis massa euismod, varius libero at, imperdiet tellus.",
+						"name": "Conformità alla norma UNI EN ISO 9001"
+					},
+					{
+						"single": {
+							"description": "Nullam ut odio id ipsum dignissim finibus eu sit amet quam. Fusce sollicitudin felis eget orci porttitor, a blandit massa auctor.",
+							"name": "Rispetto del Regolamento Generale sulla Protezione dei Dati Personali (GDPR)"
+						}
+					}
+				]
+			}]
+		}
+	},
+	{
+		"interface": {
+			"filename": "07e9fbb2-8d20-4b75-a104-34657d45fba8.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "1fdd87a1-98f8-4a2c-8282-117f2b2d9d8a",
+			"state": "SUSPENDED",
+			"version": "19"
+		},
+		"technology": "REST",
+		"producerName": "Istituto per la Conservazione del Patrimonio Artistico",
+		"id": "02a9d90d-5b5f-44e2-98f6-040d8e1c3b26",
+		"name": "Portale per la Prenotazione Online di Visite Specialistiche",
+		"description": "Offre un facile accesso alle prenotazioni per visite specialistiche e analisi, permettendo ai pazienti di prenotare comodamente da casa",
+		"docs": [{
+			"filename": "a1e17c11-07e1-4f91-b8a2-2c53e988a26d.pdf",
+			"prettyName": "Analisi dei requisiti per un sistema di gestione documentale"
+		}, {
+			"filename": "982a5e39-8e2f-4535-b7d2-2aa44cc8f1cc.zip",
+			"prettyName": "Manuale utente per un'applicazione di intelligenza artificiale"
+		}, {
+			"filename": "e29b57d7-c09c-4752-a9f6-36b2e2e47d27.pdf",
+			"prettyName": "Relazione tecnica per la progettazione di un algoritmo di machine learning"
+		}, {
+			"filename": "8e6726c4-83c2-4d47-b1da-12f17c1bbf96.zip",
+			"prettyName": "Studio di fattibilità per un sistema di gestione del personale"
+		}, {
+			"filename": "557b550a-2b2f-4df2-9be7-817752c6e9a1.pdf",
+			"prettyName": "Relazione di progetto per un'applicazione di gestione delle attività sportive"
+		}],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": []
+		}
+	},
+	{
+		"interface": {
+			"filename": "65b4fb4a-65e8-4c45-94de-188153e0c198.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "654ccfdd-7ed5-4b5c-a3aa-5ba91ba7b4e6",
+			"state": "SUSPENDED",
+			"version": "8"
+		},
+		"technology": "REST",
+		"producerName": "Centro per lo Studio dell'Inquinamento Acustico",
+		"id": "7c13a87d-71ab-40cb-a056-6e42544f1e84",
+		"name": "Assistenza ai Cittadini Stranieri in Italia",
+		"description": "Servizio di assistenza a tutti i cittadini stranieri che risiedono o transitano in Italia, per risolvere problemi amministrativi, legali, sanitari, di lavoro e altro",
+		"docs": [],
+		"attributes": {
+			"certified": [{
+					"group": [{
+							"description": "Credenziali per l'accesso ai sistemi informatici",
+							"name": "Credenziali informatiche"
+						},
+						{
+							"description": "Attestazione di qualità dei prodotti alimentari",
+							"name": "Certificazione alimentare"
+						}
+					]
+				},
+				{
+					"single": {
+						"description": "Certificato di sicurezza elettrica per impianti domestici",
+						"name": "Certificato di sicurezza elettrica"
+					}
+				}
+			],
+			"declared": [{
+					"group": [{
+							"description": "Dichiarazione di conformità dei materiali utilizzati in edilizia",
+							"name": "Dichiarazione di conformità materiali edilizia"
+						},
+						{
+							"description": "Attestazione di conformità delle macchine industriali",
+							"name": "Attestazione di conformità macchine industriali"
+						}
+					]
+				},
+				{
+					"single": {
+						"description": "Dichiarazione di conformità alla normativa sulla privacy",
+						"name": "Dichiarazione di conformità privacy"
+					}
+				}
+			],
+			"verified": []
+		}
+
+	},
+	{
+		"interface": {
+			"filename": "1b11e9da-6f25-4d8a-b37e-7ef98e3c17de.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "51e57d15-fdcb-4761-af33-0ef61f7d5d5c",
+			"state": "PUBLISHED",
+			"version": "4"
+		},
+		"technology": "REST",
+		"producerName": "Commissione per la Promozione della Cultura del Riciclo",
+		"id": "c0fcbfb2-0c8e-48a7-aae5-7790d764cf8f",
+		"name": "Servizio di Segnalazione delle Criticità Ambientali",
+		"description": "Consente ai cittadini di segnalare alla pubblica amministrazione situazioni di degrado ambientale, di inquinamento o di problemi igienico-sanitari",
+		"docs": [{
+			"filename": "48296f70-2d36-49c9-9f92-1cc26941317c.pdf",
+			"prettyName": "Manuale operativo per l'installazione di un sistema di sicurezza aziendale"
+		}, {
+			"filename": "f5fc99f4-b4fa-4b3c-b5b5-b5bf76c5df5a.zip",
+			"prettyName": "Analisi di mercato per la definizione di un prodotto software"
+		}, {
+			"filename": "14b8d8f6-43e2-4962-9382-9d35222a58dc.pdf",
+			"prettyName": "Relazione di testing per un'applicazione web di e-learning"
+		}],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": [{
+				"group": [{
+						"description": "Verifica della corretta applicazione delle leggi ambientali",
+						"name": "Verifica leggi ambientali"
+					},
+					{
+						"description": "Conformità alle norme di sicurezza sul lavoro",
+						"name": "Conformità sicurezza lavoro"
+					}
+				]
+			}]
+		}
+	},
+	{
+		"interface": {
+			"filename": "1e99e9da-6f25-4d8a-b37e-7ef98e3c17de.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "1a40f537-0a9d-4a7f-87e2-dafe7f79e86d",
+			"state": "SUSPENDED",
+			"version": "14"
+		},
+		"technology": "REST",
+		"producerName": "Dipartimento per la Pianificazione del Trasporto Pubblico Locale",
+		"id": "476f4e96-b1e1-4c24-bf17-4c96dd44bb9d",
+		"name": "Consultorio per la Salute Sessuale e Riproduttiva",
+		"description": "Fornisce informazioni e servizi sulla salute sessuale e riproduttiva, come la contraccezione, la prevenzione delle malattie sessualmente trasmissibili, la gravidanza e l'aborto",
+		"docs": [{
+			"filename": "882f1411-dc0a-4392-a3dc-39a491e0a062.zip",
+			"prettyName": "Piano di sviluppo per un software di gestione della produzione"
+		}, {
+			"filename": "00a83457-9f23-469d-9cc1-4261e24c8b13.pdf",
+			"prettyName": "Studio di fattibilità per la realizzazione di un sistema di raccolta dati"
+		}],
+		"attributes": {
+			"certified": [{
+				"group": [{
+						"description": "Certificazione di qualità ISO 9001",
+						"name": "Certificazione Qualità"
+					},
+					{
+						"description": "Certificazione ambientale ISO 14001",
+						"name": "Certificazione Ambiente"
+					}
+				]
+			}],
+			"declared": [],
+			"verified": [{
+				"group": [{
+						"description": "Verifica del rispetto della normativa sulla sicurezza sul lavoro",
+						"name": "Verifica Sicurezza sul Lavoro"
+					},
+					{
+						"description": "Verifica del rispetto della normativa sulla qualità dell'aria",
+						"name": "Verifica Qualità dell'Aria"
+					}
+				]
+			}]
+		}
+	},
+	{
+		"interface": {
+			"filename": "f4cfe4dc-24c1-4d92-bd69-60c300a6f21d.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "a0e96828-36f8-42f7-9570-11cb2f2b0a17",
+			"state": "PUBLISHED",
+			"version": "10"
+		},
+		"technology": "REST",
+		"producerName": "Agenzia per la Valorizzazione del Territorio Rurale",
+		"id": "a4a7f2d2-2af7-4a8b-b1f3-3eeb24a9f9fd",
+		"name": "Servizio di Consulenza Legale Gratuita",
+		"description": "Offre consulenza legale gratuita a chiunque ne abbia bisogno, fornendo informazioni sulla normativa italiana e supporto nella risoluzione di controversie",
+		"docs": [{
+			"filename": "e6097f1d-fc13-4b2e-af1b-0a4f3e5364b6.pdf",
+			"prettyName": "Manuale utente per un'applicazione di gestione delle attività di produzione"
+		}],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": [{
+				"group": [{
+						"description": "Dichiarazione di conformità ai requisiti per l'accessibilità web",
+						"name": "Dichiarazione Accessibilità Web"
+					},
+					{
+						"description": "Dichiarazione di conformità alla normativa sulla privacy GDPR",
+						"name": "Dichiarazione Privacy GDPR"
+					}
+				]
+			}]
+		}
+	},
+	{
+		"interface": {
+			"filename": "e46b853a-9e9c-4632-8ed8-14bc75b1f345.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "aa3f3d38-2a8d-4c32-9f90-2121ecb49dc8",
+			"state": "PUBLISHED",
+			"version": "17"
+		},
+		"technology": "REST",
+		"producerName": "Istituto per la Gestione della Sicurezza Stradale",
+		"id": "2dd0e51b-833e-460f-a172-f130c3f825a3",
+		"name": "Assistenza ai Disabili nella Vita Quotidiana",
+		"description": "Servizio di supporto ai disabili e alle loro famiglie, con informazioni sui diritti, sulla cura e sull'accesso ai servizi, per garantire loro una vita il più possibile indipendente",
+		"docs": [{
+			"filename": "a303b8e2-2d21-4d5a-b85d-d8e5c46a5b5d.zip",
+			"prettyName": "Studio di fattibilità per l'implementazione di un sistema di sicurezza informatica"
+		}, {
+			"filename": "9e77f28e-40b3-4dbf-a31e-2e4a7c3f4e34.pdf",
+			"prettyName": "Relazione di progetto per un'applicazione di monitoraggio dei consumi energetici"
+		}],
+		"attributes": {
+			"certified": [{
+					"group": [{
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget metus in est euismod interdum. Fusce at ultricies elit. Nulla sit amet risus purus",
+							"name": "Agenzie Ambientali"
+						},
+						{
+							"description": "Duis id velit consectetur, lacinia justo vitae, maximus mauris",
+							"name": "Aziende Alimentari"
+						}
+					]
+				},
+				{
+					"group": [{
+							"description": "Donec in sem in ex euismod sollicitudin euismod at velit",
+							"name": "Enti di Controllo Sanitario"
+						},
+						{
+							"description": "Proin vel ligula at ipsum lacinia egestas",
+							"name": "Società di Trasporto Merci"
+						}
+					]
+				}
+			],
+			"declared": [],
+			"verified": [{
+				"group": [{
+						"description": "Vestibulum euismod orci eu laoreet ullamcorper",
+						"name": "Verifica Apparecchiature Elettroniche"
+					},
+					{
+						"description": "Nulla facilisi. Pellentesque hendrerit cursus odio, non ultricies ex auctor id",
+						"name": "Certificazione ISO 9001"
+					},
+					{
+						"description": "Proin a arcu aliquam, commodo quam quis, bibendum velit",
+						"name": "Certificazione di Sicurezza Lavoro"
+					}
+				]
+			}]
+		}
+	},
+	{
+		"interface": {
+			"filename": "8d54b25a-1240-4edc-af8d-8f1c23a33b0a.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "93cfae69-4480-4fc8-93c2-eb424703c44a",
+			"state": "SUSPENDED",
+			"version": "3"
+		},
+		"technology": "REST",
+		"producerName": "Autorità per la Tutela della Privacy Online",
+		"id": "9e8bdc34-38e4-4b1a-b64c-04bb4a4c1f12",
+		"name": "Sportelli per l'Accesso al Credito per le Imprese",
+		"description": "Aiuta le imprese nella richiesta di finanziamenti e nell'accesso a linee di credito, fornendo supporto nella predisposizione dei documenti necessari",
+		"docs": [],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": [{
+				"single": {
+					"description": "Suspendisse in lorem in quam facilisis commodo sit amet ut ipsum",
+					"name": "Dichiarazione di Conformità CE"
+				}
+			}]
+		}
+	},
+	{
+		"interface": {
+			"filename": "974eeb0f-57d1-47e5-a16a-56e757d9d2c3.wsdl",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "17d06d8e-824c-4ecf-847f-b452a1968db9",
+			"state": "PUBLISHED",
+			"version": "12"
+		},
+		"technology": "SOAP",
+		"producerName": "Centro Nazionale per lo Sviluppo della Robotica",
+		"id": "d0e8f4f6-13af-41a5-882a-8dd73c437baf",
+		"name": "Punto di Informazione per l'Inclusione Sociale",
+		"description": "Offre informazioni e sostegno alle persone in difficoltà, ad esempio per l'accesso ai servizi socio-sanitari, ai sussidi economici, all'assistenza legale e altro",
+		"docs": [{
+			"filename": "aa9d0e09-2f2a-48b6-b0e6-d1a6c8252f5e.zip",
+			"prettyName": "Specifiche tecniche per la progettazione di un sistema di gestione delle scorte"
+		}, {
+			"filename": "2e947b7f-c33d-4d11-bc89-26a7bb5c1f24.pdf",
+			"prettyName": "Documento di analisi dei requisiti per un'applicazione di analisi dati aziendali"
+		}, {
+			"filename": "dce1e58d-6706-48d6-8a0b-31465a0c7345.pdf",
+			"prettyName": "Manuale utente per un'applicazione di prenotazione online di biglietti per eventi"
+		}],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": []
+		}
+	},
+	{
+		"interface": {
+			"filename": "8e12d54e-5db5-40f5-90ec-f73d52a0c63d.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "d84460c2-322a-42e9-9c2e-1c2b2a089e84",
+			"state": "PUBLISHED",
+			"version": "20"
+		},
+		"technology": "REST",
+		"producerName": "Istituto per la Ricerca sulla Qualità dell'Aria",
+		"id": "9ee761df-8e29-4163-80d3-f7d3c8f3a7c2",
+		"name": "Servizio di Prevenzione e Tutela della Salute Mentale",
+		"description": "Servizio di assistenza psicologica e psichiatrica, per la prevenzione e il trattamento dei disturbi mentali, promuovendo il benessere psicologico e la qualità della vita",
+		"docs": [{
+				"filename": "2b88f05b-9282-4027-9d6e-4817a79405d9.pdf",
+				"prettyName": "Report mensile"
+			},
+			{
+				"filename": "1fa2b14c-62a6-4d64-9a6e-b1e8163b6f22.zip",
+				"prettyName": "Analisi dati"
+			}
+		],
+		"attributes": {
+			"certified": [],
+			"verified": [{
+					"single": {
+						"description": "Nam malesuada odio vitae purus elementum, eu hendrerit mi lobortis",
+						"name": "Verifica Statuti Aziendali"
+					}
+				},
+				{
+					"single": {
+						"description": "Nam finibus, dolor eget dapibus tempor, nibh nisl imperdiet lectus, quis feugiat nisl odio ut magna",
+						"name": "Conformità Normativa Antincendio"
+					}
+				}
+			],
+			"declared": []
+		}
+	},
+	{
+		"interface": {
+			"filename": "8bc72e45-0a95-4ba3-a3c2-37d54be9b691.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "fcab5c5d-02aa-4e33-b1dd-7c58b47f2d7c",
+			"state": "SUSPENDED",
+			"version": "6"
+		},
+		"technology": "REST",
+		"producerName": "Dipartimento per l'Innovazione Tecnologica nel Settore della Sanità",
+		"id": "9127be9a-1f15-4375-91a5-48e5c5ee5d5a",
+		"name": "Spazio per l'Orientamento Scolastico e Professionale",
+		"description": "Servizio di orientamento scolastico e professionale, per aiutare studenti e lavoratori a scegliere il percorso di studi o di carriera più adatto alle loro esigenze e interessi",
+		"docs": [{
+				"filename": "986d89b2-0861-4372-91da-5d77a8b041c1.pdf",
+				"prettyName": "Manuale utente"
+			},
+			{
+				"filename": "5a5b5d8c-5203-4a05-9cf5-34a8e934a5b5.pdf",
+				"prettyName": "Progetto software"
+			}
+		],
+		"attributes": {
+
+			"certified": [{
+				"single": {
+					"name": "Imprese Edili",
+					"description": "Imprese che si occupano della costruzione e della ristrutturazione di edifici."
+				}
+			}],
+			"declared": [{
+				"group": [{
+						"name": "Decreto Ministeriale 123/2019",
+						"description": "Decreto che stabilisce le norme per la gestione delle acque reflue."
+					},
+					{
+						"name": "Regolamento Comunale 456/2022",
+						"description": "Regolamento che disciplina l'uso del suolo pubblico."
+					},
+					{
+						"single": {
+							"name": "Dichiarazione Sostitutiva",
+							"description": "Dichiarazione necessaria per attestare la veridicità di determinate informazioni."
+						}
+					}
+				]
+			}],
+			"verified": [{
+				"single": {
+					"name": "Attestazione SOA",
+					"description": "Attestazione necessaria per partecipare a gare d'appalto pubbliche."
+				}
+			}]
+
+		}
+	}, {
+		"interface": {
+			"filename": "f4cfe4dc-24c1-4d92-bd69-60c300a6f21d.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "6e996900-46f8-4f0a-98b7-82b8cdd32813",
+			"state": "PUBLISHED",
+			"version": "2"
+		},
+		"technology": "REST",
+		"producerName": "Agenzia per la Promozione del Benessere Animale",
+		"id": "5ef9d9e5-5f71-47e3-bf6d-c2396c19d25e",
+		"name": "Sportelli per l'Assistenza alle Vittime di Violenza",
+		"description": "Servizio di assistenza alle vittime di violenza, che fornisce supporto legale, psicologico e sociale alle vittime e ai loro familiari",
+		"docs": [],
+		"attributes": {
+			"certified": [{
+				"group": [{
+						"name": "Aziende Alimentari",
+						"description": "Aziende che si occupano della produzione e della commercializzazione di alimenti."
+					},
+					{
+						"name": "Associazioni Sportive",
+						"description": "Organizzazioni che si occupano di promuovere e diffondere lo sport."
+					},
+					{
+						"single": {
+							"name": "Società di Capitali",
+							"description": "Società che hanno come oggetto sociale la gestione di attività commerciali."
+						}
+					}
+				]
+			}],
+			"verified": [],
+			"declared": []
+		}
+	}, {
+		"interface": {
+			"filename": "6e5a6d5e-2158-4a0a-9f7e-85c98f9307c8.wdsl",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "9c04a2f2-55ed-42f7-ba49-c944dcf8cb11",
+			"state": "SUSPENDED",
+			"version": "16"
+		},
+		"technology": "SOAP",
+		"producerName": "Commissione per la Tutela delle Lingue Regionali",
+		"id": "a0197c8d-39e7-4ab3-b3d3-8c72f7876e38",
+		"name": "Servizio di Supporto alla Genitorialità",
+		"description": "Fornisce supporto ai genitori nella cura e nell'educazione dei figli, con servizi di consulenza, informazione, formazione e sostegno nelle situazioni di difficoltà",
+		"docs": [],
+		"attributes": {
+			"certified": [],
+			"verified": [{
+				"group": [{
+						"name": "Certificazione ISO 9001",
+						"description": "Certificazione che attesta la qualità del sistema di gestione aziendale."
+					},
+					{
+						"name": "Certificazione OHSAS 18001",
+						"description": "Certificazione che attesta l'impegno dell'azienda nella gestione della salute e sicurezza dei lavoratori."
+					},
+					{
+						"single": {
+							"name": "Certificazione Energetica",
+							"description": "Certificazione che attesta il livello di efficienza energetica di un edificio."
+						}
+					}
+				]
+			}],
+			"declared": []
+		}
+	}, {
+		"interface": {
+			"filename": "7a117c58-3f69-44c2-9e0e-1af745fa56b8.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "7a3a3f20-7c70-4e08-a7c9-94d338f6c4a4",
+			"state": "SUSPENDED",
+			"version": "15"
+		},
+		"technology": "REST",
+		"producerName": "Ufficio Nazionale per la Promozione delle Attività Culturali",
+		"id": "3a3bdc63-5f70-4972-8f29-12e125a9df77",
+		"name": "Sportelli per la Ricerca di Lavoro e Formazione Professionale",
+		"description": "Servizio di orientamento e supporto nella ricerca di lavoro e nella formazione professionale, con informazioni sui bandi, sui programmi formativi e sulle opportunità di carriera",
+		"docs": [{
+			"filename": "c7d78a03-8a79-4629-a13d-0d44e2c8e267.zip",
+			"prettyName": "Analisi_requisiti"
+		}, {
+			"filename": "7843b3f3-8a04-4b54-9b63-6d1a7a15bb08.pdf",
+			"prettyName": "Manuale_utente"
+		}],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": [{
+				"single": {
+					"name": "Attestazione SOA",
+					"description": "Attestazione necessaria per partecipare a gare d'appalto pubbliche."
+				}
+			}]
+		}
+	}, {
+		"interface": {
+			"filename": "927cf536-7426-4f11-a8ba-46f67ec9c4ad.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "54694797-6fb4-4f33-a6a4-6ee8d1a43b6d",
+			"state": "PUBLISHED",
+			"version": "5"
+		},
+		"technology": "REST",
+		"producerName": "Centro per lo Sviluppo delle Energie Rinnovabili",
+		"id": "32761d38-5201-4231-9776-bc36667f5d6d",
+		"name": "Servizio di Accoglienza per i Senzatetto",
+		"description": "Offre assistenza ai senzatetto con servizi di accoglienza, ristoro, igiene, assistenza sanitaria e sociale, al fine di offrire loro un riparo e di avvicinarli alla società",
+		"docs": [{
+			"filename": "1d7110d2-4088-43f9-a3b3-78229d10d938.pdf",
+			"prettyName": "Relazione_progetto"
+		}],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": [{
+				"group": [{
+						"description": "Curabitur id est id dolor sollicitudin tristique",
+						"name": "Direttive del Ministero dell'Economia"
+					},
+					{
+						"description": "Donec at ligula et tellus tincidunt cursus",
+						"name": "Regolamenti UE 2016/679"
+					},
+					{
+						"description": "Mauris sit amet orci ut massa luctus venenatis vel non felis",
+						"name": "Codice Civile Art. 2043"
+					}
+				]
+			}]
+		}
+	}, {
+		"interface": {
+			"filename": "8dcbf5b2-1c14-4dfc-8e5c-66f9e9f08e3c.wsdl",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "5d541b5a-bc09-45f5-bec3-62d9f54ec19d",
+			"state": "SUSPENDED",
+			"version": "13"
+		},
+		"technology": "SOAP",
+		"producerName": "Istituto per la Valorizzazione delle Tradizioni Popolari",
+		"id": "57c31a24-f12a-44ed-9b50-0f50c78b56cb",
+		"name": "Punto di Informazione per la Cittadinanza Digitale",
+		"description": "Offre informazioni sulle tecnologie digitali e su come utilizzarle in modo sicuro e responsabile, con servizi di supporto per la creazione di account online, l'utilizzo di servizi digitali e altro",
+		"docs": [{
+			"filename": "743d1c51-0d29-4918-8dd2-c7b5a449d5c5.zip",
+			"prettyName": "Studio_fattibilità"
+		}],
+		"attributes": {
+			"certified": [{
+				"single": {
+					"description": "Certificazione di conformità con la normativa europea sulla sicurezza dei prodotti",
+					"name": "Certificazione Conformità Prodotti"
+				}
+			}],
+			"verified": [],
+			"declared": []
+		}
+	}, {
+		"interface": {
+			"filename": "4516e31f-d054-4ec8-8e5b-9c56e3d3b14f.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "8124179b-98d5-4563-9a3c-34512f945e62",
+			"state": "PUBLISHED",
+			"version": "17"
+		},
+		"technology": "REST",
+		"producerName": "Autorità per la Sicurezza Alimentare",
+		"id": "45f0a53b-d5b5-4520-9e85-5395d6b7c537",
+		"name": "Servizio di Consulenza per l'Imprenditoria Giovanile",
+		"description": "Fornisce informazioni e supporto alla creazione di nuove imprese, con servizi di consulenza, informazione, formazione e sostegno alle start-up e alle imprese giovani",
+		"docs": [],
+		"attributes": {
+			"certified": [{
+				"single": {
+					"description": "Praesent vel tortor hendrerit, vulputate justo vel, laoreet mi",
+					"name": "Aziende di Servizi Informatici"
+				}
+			}],
+			"verified": [],
+			"declared": []
+		}
+	}, {
+		"interface": {
+			"filename": "1de6ee44-f6b5-48f8-a4db-9eb4f4a36f4d.wsdl",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "e7e0afba-0aa1-4d2c-90a2-330e9a1d8f2c",
+			"state": "SUSPENDED",
+			"version": "6"
+		},
+		"technology": "SOAP",
+		"producerName": "Dipartimento per la Protezione del Patrimonio Naturale",
+		"id": "d1e7b767-46cc-4df8-9e9b-25919b913d3b",
+		"name": "Sportelli per la Mediazione Familiare",
+		"description": "Servizio di supporto alle famiglie in crisi, con servizi di mediazione, consulenza e sostegno per risolvere i conflitti e ricostruire i rapporti familiari",
+		"docs": [],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": []
+		}
+	}, {
+		"interface": {
+			"filename": "d4162c1d-95d4-4a14-a7b9-1b080a7d69d8.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "1de9d6f8-1a58-4a52-973f-88d7d52a41af",
+			"state": "PUBLISHED",
+			"version": "10"
+		},
+		"technology": "REST",
+		"producerName": "Agenzia per la Tutela del Consumatore Online",
+		"id": "f886f80e-02b3-4e4a-b8b9-22f7c04cf37e",
+		"name": "Centro per la Promozione del Benessere Animale",
+		"description": "Servizio di assistenza agli animali domestici e ai loro proprietari, con servizi di prevenzione, cura, adozione e sostegno al benessere degli animali",
+		"docs": [{
+			"filename": "1c6f1255-5e19-4678-a6eb-69a7b3c3ec57.zip",
+			"prettyName": "Analisi web"
+		}, {
+			"filename": "f0802e6a-5a5d-45b8-aa5f-71b20787896b.pdf",
+			"prettyName": "Database design"
+		}],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": [{
+				"single": {
+					"description": "Dichiarazione di conformità alla normativa sulla sicurezza dei dati",
+					"name": "Dichiarazione Sicurezza Dati"
+				}
+			}]
+		}
+	}, {
+		"interface": {
+			"filename": "163f23dc-1967-44e8-9a7a-857c78e03d7f.yml",
+			"prettyName": "Specifica API"
+		},
+		"activeDescriptor": {
+			"id": "19c611e7-8b47-4243-b3a3-9520d7fc2c23",
+			"state": "SUSPENDED",
+			"version": "8"
+		},
+		"technology": "REST",
+		"producerName": "Commissione per la Valorizzazione dell'Artigianato Tradizionale",
+		"id": "8c25a4b7-31f4-4dc4-a4c9-03a4ad0b2d0a",
+		"name": "Servizio di Sostegno ai Malati di Alzheimer",
+		"description": "Servizio di assistenza ai malati di Alzheimer e alle loro famiglie, con servizi di supporto psicologico, medico e sociale, al fine di migliorare la qualità della vita dei pazienti e delle loro famiglie",
+		"docs": [{
+			"filename": "e9e9eb96-3c02-4dc8-8ee3-cd4244e4adab.zip",
+			"prettyName": "App mobile"
+		}, {
+			"filename": "8eb6f2d6-3bc3-4a91-8c6d-c4366e89067c.pdf",
+			"prettyName": "API design"
+		}, {
+			"filename": "2bb7275d-9a33-47d5-b19b-21c8a05253d7.zip",
+			"prettyName": "Testing"
+		}],
+		"attributes": {
+			"certified": [],
+			"verified": [],
+			"declared": [{
+				"single": {
+					"description": "Conformità alle norme di sicurezza alimentare",
+					"name": "Conformità sicurezza alimentare"
+				}
+			}]
+		}
+	}
+]

@@ -1,7 +1,31 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { graphql } from 'gatsby';
 
-const Page = () => (
+const renderCard = (id, title, text, producer) => (
+  <div key={id} className="row">
+    <div className="col-12 col-lg-6">
+      <div className="card-wrapper card-space">
+        <div className="card card-bg card-big no-after">
+          <div className="card-body">
+            <div className="head-tags">
+              <a className="card-tag" href="#">Tag</a>
+              <span className="data">10/10/2018</span>
+            </div>
+            <h5 className="card-title">{title}</h5>
+            <p className="card-text">{text}</p>
+            <div className="it-card-footer">
+              <span className="card-signature">{producer}</span>
+              <a className="btn btn-outline-primary btn-sm" href="#">»</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+)
+
+const Page = ({data: { allEServicesJson: { edges } } }) => (
   <>
   <div className="container">
     <div className="mt-5">
@@ -36,6 +60,7 @@ const Page = () => (
       <h3 className="mb-5">Sei un ente pubblico o un impresa?</h3>
       <p>Esplora il catalogo e adatta il tuo servizio</p>
 
+      {edges.map(e => renderCard(e.node.id, e.node.name, e.node.description, e.node.producerName))}
     </div>
   </section>
 
@@ -46,4 +71,20 @@ const Page = () => (
   </section>
   </>
 )
+
+export const query = graphql`
+  query {
+    allEServicesJson {
+      edges {
+        node {
+          id
+          description
+          name
+          producerName
+        }
+      }
+    }
+  }
+`
+
 export default Page;

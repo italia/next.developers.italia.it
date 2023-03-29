@@ -5,6 +5,13 @@ module.exports = {
     siteUrl: "https://next.developers.italia.it/",
   },
   plugins: [
+    "gatsby-transformer-json",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/static/data/`,
+      },
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-jss",

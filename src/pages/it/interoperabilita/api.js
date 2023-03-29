@@ -10,13 +10,13 @@ const renderCard = (id, title, text, producer) => (
           <div className="card-body">
             <div className="head-tags">
               <a className="card-tag" href="#">Tag</a>
-              <span className="data">10/10/2018</span>
+              <span className="data">date</span>
             </div>
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{text}</p>
             <div className="it-card-footer">
               <span className="card-signature">{producer}</span>
-              <a className="btn btn-outline-primary btn-sm" href="#">»</a>
+              <Link to={`/it/interoperabilita/api/${id}`}>»</Link>
             </div>
           </div>
         </div>

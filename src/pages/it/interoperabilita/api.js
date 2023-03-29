@@ -36,7 +36,6 @@ const Page = () => (
       <h3 className="mb-5">Sei un ente pubblico o un impresa?</h3>
       <p>Esplora il catalogo e adatta il tuo servizio</p>
 
-      </div>
     </div>
   </section>
 

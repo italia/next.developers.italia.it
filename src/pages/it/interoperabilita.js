@@ -41,7 +41,7 @@ const Page = () => (
             </p>
 
             <h5 className="h6">Strumenti correlati</h5>
-            <p><Link to="/it/accessibilita/api">Catalogo API</Link></p>
+            <p><Link to="/it/interoperabilita/api">Catalogo API</Link></p>
             <p>
               <a href="#">
                 Base Dati di Interesse Nazionale (BDIN)
@@ -220,7 +220,7 @@ const Page = () => (
 
       <div class="row row-eq-height">
         <div class="col-sm-6 col-md-6 col-lg-4 my-4 mb-md-4 my-md-0 px-3">
-            <a target="_blank" href="https://forum.italia.it/" class="decoration-none" title="Forum">
+            <a href="https://forum.italia.it/" class="decoration-none" title="Forum">
                 <article class="d-flex flex-column align-items-start h-100 bg-white p-2 p-4 ">
                     <figure class="d-flex w-100 align-items-center">
                         <img src="https://developers.italia.it/assets/images/tools/Forum_Logo.svg" alt="Logo Forum Italia" height="32" />
@@ -236,7 +236,7 @@ const Page = () => (
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 my-4 mb-md-4 my-md-0 px-3">
-            <a target="_blank" href="https://slack.developers.italia.it/" class="decoration-none" title="Slack">
+            <a href="https://slack.developers.italia.it/" class="decoration-none" title="Slack">
                 <article class="d-flex flex-column align-items-start h-100 bg-white p-2 p-4 ">
                     <figure class="d-flex w-100 align-items-center">
                         <img src="https://developers.italia.it/assets/images/tools/Slack_Logo.svg" alt="Logo Slack" height="32" />
@@ -251,7 +251,7 @@ const Page = () => (
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 my-4 mb-md-4 my-md-0 px-3">
-            <a target="_blank" href="https://github.com/italia" class="decoration-none" title="GitHub Italia">
+            <a href="https://github.com/italia" class="decoration-none" title="GitHub Italia">
                 <article class="d-flex flex-column align-items-start h-100 bg-white p-2 p-4 ">
                     <figure class="d-flex w-100 align-items-center">
                         <img src="https://developers.italia.it/assets/images/tools/GitHub_Logo.svg" alt="Logo GitHub" height="32" />

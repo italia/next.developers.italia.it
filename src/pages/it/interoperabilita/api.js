@@ -14,7 +14,7 @@ const Page = () => (
         <h2>Catalogo API</h2>
         <div className="row mt-5 mb-4 justify-content-between">
           <div className="col-md-6">
-            <p class="lead h3">
+            <p className="lead h3">
               Tutte le API presenti su Piattaforma Digitale Nazionale Dati
               per rendere i servizi interoperabili
             </p>
@@ -35,11 +35,13 @@ const Page = () => (
     <div className="container mt-5 pt-5">
       <h3 className="mb-5">Sei un ente pubblico o un impresa?</h3>
       <p>Esplora il catalogo e adatta il tuo servizio</p>
+
+      </div>
     </div>
   </section>
 
-  <section className="background-color-2 pb-5">
-    <div className="container mt-5 pt-5">
+  <section className="background-color-2 py-4 text-white">
+    <div className="container">
       <p>Ultimo aggiornamento:</p>
     </div>
   </section>

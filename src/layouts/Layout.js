@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import './main.scss';
+import BackToTop from "react-back-to-top-button";
 import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
@@ -17,6 +18,23 @@ const useStyles = createUseStyles({
     width: '2.6rem',
   },
 });
+
+const backToTopStyle = {
+  fontSize: 'inherit',
+  position: 'fixed',
+  right: 0,
+  bottom: 0,
+  borderRadius: '50%',
+  border: 'none',
+  opacity: 0,
+  visibility: 'hidden',
+  transition: '0.4s opacity ease',
+  cursor: 'pointer',
+  width: '5rem',
+  height: '5rem',
+  outline: 'none',
+  background: '#06c',
+};
 
 export const Layout = ({ children }) => {
   const classes = useStyles();
@@ -582,6 +600,15 @@ export const Layout = ({ children }) => {
 
     </ul>
   </div>
+    <BackToTop
+        speed={1500}
+        easing="easeInOutQuint"
+        style={backToTopStyle}
+    >
+      <svg className="icon icon-white icon-lg" style={{top: 0}}>
+        <use xlinkHref="/assets/sprite.svg#it-arrow-up"></use>
+      </svg>
+    </BackToTop>
 
 </footer>
   </div>

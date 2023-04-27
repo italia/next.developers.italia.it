@@ -119,7 +119,7 @@ const Page = () => (
               e i livelli di autorizzazione dei soggetti abilitati, affinché avvenga in modo
               semplice e sicuro.
             </p>
-            <button type="button" className="btn btn-outline-secondary mb-4">Scopri di più</button>
+            <button type="button" className="btn btn-white btn-outline-primary mb-4">Scopri di più</button>
 
             <h3 className="h5 mt-4">Catalogo API</h3>
             <p>
@@ -127,7 +127,7 @@ const Page = () => (
               enti di valutare come integrarle efficacemente con i propri servizi, rendendole
               ancora più funzionali per l’utente.
             </p>
-            <Link className="btn btn-outline-secondary mb-4" to="/it/interoperabilita/api">Scopri di più</Link>
+            <Link className="btn btn-white btn-outline-primary mb-4" to="/it/interoperabilita/api">Scopri di più</Link>
 
             <h3 className="h5 mt-4">Schema</h3>
             <p>
@@ -135,7 +135,7 @@ const Page = () => (
               semantica dei dati che permette di ricercare e utilizzare risorse già standardizzate e condivise
               per supportare lo sviluppo di API semanticamente e sintatticamente interoperabili.
             </p>
-            <button type="button" className="btn btn-outline-secondary">Scopri di più</button>
+            <button type="button" className="btn btn-white btn-outline-primary">Scopri di più</button>
           </div>
           <div className="col-md-6 mt-4">
             <img width="100%" src="/assets/graph.svg" alt="" />
@@ -219,12 +219,12 @@ const Page = () => (
         devono considerare durante la realizzazione dei propri sistemi
         informatici, al fine di permettere l’interoperabilità.
       </p>
-      <a href="#">
+      <Link to="https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita">
         Consulta le linee guida
         <svg class="icon icon-sm align-top">
           <use href="/assets/sprite.svg#it-external-link"></use>
         </svg>
-      </a>
+      </Link>
     </div>
   </section>
 

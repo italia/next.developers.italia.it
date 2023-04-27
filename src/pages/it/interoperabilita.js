@@ -14,20 +14,6 @@ const Page = () => (
               Pubbliche Amministrazioni
             </p>
           </div>
-          <div className="col-md-6">
-            <h3 className="h5">Linea guida modello interoperabilità (ModI)</h3>
-            <p>
-              Individuano le tecnologie e gli standard che le Pubbliche Amministrazioni
-              devono considerare durante la realizzazione dei propri sistemi
-              informatici, al fine di permettere l’interoperabilità.
-            </p>
-            <a href="#">
-              Consulta le linee guida
-              <svg class="icon icon-sm align-top">
-                <use href="/assets/sprite.svg#it-external-link"></use>
-              </svg>
-            </a>
-          </div>
         </div>
 
         <h3 className="mt-5">Come funziona</h3>
@@ -52,59 +38,70 @@ const Page = () => (
             </p>
 
           </div>
-          <div className="col-md-3 border-right px-3">
-            <h4 className="h6">2. SVILUPPA</h4>
-            <p>
-              Crea le API usando gli strumenti e i canali di supporto disponibili.
-              Consulta e riutilizza ontologie, vocabolari controllati e schemi dati
-            </p>
+          <div className="d-flex flex-column justify-content-between col-md-3 border-right px-3">
+            <div>
+              <h4 className="h6">2. SVILUPPA</h4>
+              <p>
+                Crea le API usando gli strumenti e i canali di supporto disponibili.
+                Consulta e riutilizza ontologie, vocabolari controllati e schemi dati
+              </p>
+            </div>
 
-            <h5 className="h6">Strumenti correlati</h5>
-            <p><a href="https://developers.italia.it/it/piattaforme">Software development KIT (SDK)</a></p>
-            <p>
-              <a href="https://schema.gov.it">
-                Schema
-                <svg class="icon icon-sm align-top">
-                  <use href="/assets/sprite.svg#it-external-link"></use>
-                </svg>
-              </a>
-            </p>
+            <div>
+              <h5 className="h6">Strumenti correlati</h5>
+              <p><a href="https://developers.italia.it/it/piattaforme">Software development KIT (SDK)</a></p>
+              <p>
+                <a href="https://schema.gov.it">
+                  Schema
+                  <svg class="icon icon-sm align-top">
+                    <use href="/assets/sprite.svg#it-external-link"></use>
+                  </svg>
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="col-md-3 border-right px-3">
-            <h4 className="h6">3. VALIDA</h4>
-            <p>
-              Controlla che le tue API siano sintatticamente corrette con l’aiuto del
-              validatore
-            </p>
+          <div className="d-flex flex-column justify-content-between col-md-3 border-right px-3">
+            <div>
+              <h4 className="h6">3. VALIDA</h4>
+              <p>
+                Controlla che le tue API siano corrette dal punto di vista sintattico
+                con l’aiuto del validatore durante le fasi di sviluppo
+              </p>
+            </div>
 
-            <h5 className="h6">Strumenti correlati</h5>
-            <p>
-              <a href="https://italia.github.io/api-oas-checker/">
-                Validatore Sintattico
-                <svg class="icon icon-sm align-top">
-                  <use href="/assets/sprite.svg#it-external-link"></use>
-                </svg>
-              </a>
-            </p>
+            <div>
+              <h5 className="h6">Strumenti correlati</h5>
+              <p>
+                <a href="https://italia.github.io/api-oas-checker/">
+                  Validatore Sintattico
+                  <svg class="icon icon-sm align-top">
+                    <use href="/assets/sprite.svg#it-external-link"></use>
+                  </svg>
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="col-md-3 border-right pl-3">
-            <h4 className="h6">4. PUBBLICA</h4>
-            <p>
-              Pubblica i tuoi e-service nell’ambiente di collaudo della PDND,
-              fai i test necessari e poi rendili disponibili anche in quello
-              di esercizio
-            </p>
+          <div className="d-flex flex-column justify-content-between col-md-3 border-right px-3">
+            <div>
+              <h4 className="h6">4. PUBBLICA</h4>
+              <p>
+                Pubblica gli e-service, composti da una o più API, in ambiente di collaudo
+                della Piattaforma Digitale Nazionale Dati (PDND), fai i test e rendili
+                disponibili anche in esercizio
+              </p>
+            </div>
 
-            <h5 className="h6">Strumenti correlati</h5>
-            <p>
-              <a href="https://selfcare.pagopa.it/auth/login">
-                Piattaforma Digitale Nazionale Dati (PDND)
-                <svg class="icon icon-sm align-top">
-                  <use href="/assets/sprite.svg#it-external-link"></use>
-                </svg>
-              </a>
-            </p>
-
+            <div>
+              <h5 className="h6">Strumenti correlati</h5>
+              <p>
+                <a href="https://selfcare.pagopa.it/auth/login">
+                  Piattaforma Digitale Nazionale Dati (PDND)
+                  <svg class="icon icon-sm align-top">
+                    <use href="/assets/sprite.svg#it-external-link"></use>
+                  </svg>
+                </a>
+              </p>
+            </div>
           </div>
         </div>
 
@@ -118,16 +115,17 @@ const Page = () => (
 
             <h3 className="h5 mt-4">Piattaforma Digitale Nazionale Dati (PDND)</h3>
             <p>
-              Garantisce lo scambio di informazioni, verificando l‘autenticazione e i livelli
-              di autorizzazione dei soggetti abilitati, affinchè avvenga in modo semplice e sicuro
+              Garantisce lo scambio di informazioni tramite API, verificando l‘autenticazione
+              e i livelli di autorizzazione dei soggetti abilitati, affinché avvenga in modo
+              semplice e sicuro.
             </p>
             <button type="button" className="btn btn-outline-secondary mb-4">Scopri di più</button>
 
             <h3 className="h5 mt-4">Catalogo API</h3>
             <p>
-              Promuove la visibilità e l’uso degli e-service pubblicati su PDND, permettendo
-              agli enti di valutare come integrarli efficacemente con i propri servizi, rendendoli
-              ancora più funzionali per l’utente
+              Promuove la visibilità e l’uso delle API pubblicate su PDND, permettendo agli
+              enti di valutare come integrarle efficacemente con i propri servizi, rendendole
+              ancora più funzionali per l’utente.
             </p>
             <Link className="btn btn-outline-secondary mb-4" to="/it/interoperabilita/api">Scopri di più</Link>
 
@@ -152,24 +150,24 @@ const Page = () => (
       <h3 className="mb-5">I vantaggi</h3>
       <div className="row">
         <div className="col-md-6">
-          <div class="row align-items-center">
+          <div class="row">
             <div class="col-2">
               <img src="/assets/smile.svg" alt="" className="img-fluid" />
             </div>
             <div class="col-8">
-              <h4 className="text-muted">Persone fisiche e imprese</h4>
+              <h4>Persone fisiche e imprese</h4>
               <p>Semplificazione dei servizi offerti a persone fisiche e imprese</p>
             </div>
           </div>
         </div>
 
         <div className="col-md-6">
-          <div class="row align-items-center">
+          <div class="row">
             <div class="col-2">
               <img src="/assets/building.svg" alt="" className="img-fluid" />
             </div>
             <div class="col-8">
-              <h4 className="text-muted">Ente</h4>
+              <h4>Ente</h4>
               <p>
                 Facilitazione e sicurezza dello scambio dati tramite la standardizzazione
                 del processo per enti
@@ -181,12 +179,12 @@ const Page = () => (
 
       <div className="row mt-4">
         <div className="col-md-6">
-          <div class="row align-items-center">
+          <div class="row">
             <div class="col-2">
-              <img src="/assets/smile.svg" alt="" className="img-fluid" />
+              <img src="/assets/developer.svg" alt="" className="img-fluid" />
             </div>
             <div class="col-8">
-              <h4 className="text-muted">Developer</h4>
+              <h4>Developer</h4>
               <p>
                 Integrazione degli e-service attraverso gli standard offerti dalla
                 Piattaforma Digitale Nazionale Dati (PDND)
@@ -196,12 +194,12 @@ const Page = () => (
         </div>
 
         <div className="col-md-6">
-          <div class="row align-items-center">
+          <div class="row">
             <div class="col-2">
               <img src="/assets/happy-privacy.svg" alt="" className="img-fluid" />
             </div>
             <div class="col-8">
-              <h4 className="text-muted">Responsabile per la protezione dei dati (RPD)</h4>
+              <h4>Responsabile per la protezione dei dati (RPD)</h4>
               <p>
                 Standardizzazione del processo per tutti coloro che aderiscono e
                 riutilizzo di quanto messo a disposizione dagli altri
@@ -210,6 +208,23 @@ const Page = () => (
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section className="container pb-5 mb-2">
+    <div className="col-md-6 mt-5 pt-3">
+      <h3>Linea guida modello interoperabilità (ModI)</h3>
+      <p>
+        Individuano le tecnologie e gli standard che le Pubbliche Amministrazioni
+        devono considerare durante la realizzazione dei propri sistemi
+        informatici, al fine di permettere l’interoperabilità.
+      </p>
+      <a href="#">
+        Consulta le linee guida
+        <svg class="icon icon-sm align-top">
+          <use href="/assets/sprite.svg#it-external-link"></use>
+        </svg>
+      </a>
     </div>
   </section>
 

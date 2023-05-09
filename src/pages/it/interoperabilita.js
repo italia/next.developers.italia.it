@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+import "./interoperabilita.scss";
+
 const Page = () => (
   <>
   <div className="container">
@@ -18,28 +20,31 @@ const Page = () => (
 
         <h3 className="mt-5">Come funziona</h3>
         <div className="row mt-5">
-          <div className="col-md-3 border-right pr-2">
-            <h4 className="h6">1. RICERCA</h4>
-            <p>
-              Scopri le API disponibili e quali veicolano dati di interesse
-              nazionale e valuta come integrarle nei tuoi servizi
-              o come crearne di innovativi
-            </p>
+          <div className="col-md-3 border-right px-3">
+            <div className="content-section">
+              <h4 className="h6">1. RICERCA</h4>
+              <p>
+                Scopri le API disponibili e quali veicolano dati di interesse
+                nazionale e valuta come integrarle nei tuoi servizi
+                o come crearne di innovativi
+              </p>
+            </div>
+
 
             <h5 className="h6">Strumenti correlati</h5>
-            <p><Link to="/it/interoperabilita/api">Catalogo API</Link></p>
+            <p><Link to="https://selfcare.pagopa.it/auth/login">Catalogo API</Link></p>
             <p>
               <a href="#">
-                Base Dati di Interesse Nazionale (BDIN)
+                Base Dati di Interesse Nazionale <br/ > (BDIN)
                 <svg class="icon icon-sm align-top">
                   <use href="/assets/sprite.svg#it-external-link"></use>
                 </svg>
               </a>
             </p>
-
           </div>
-          <div className="d-flex flex-column justify-content-between col-md-3 border-right px-3">
-            <div>
+
+          <div className="col-md-3 border-right px-3">
+            <div className="content-section">
               <h4 className="h6">2. SVILUPPA</h4>
               <p>
                 Crea le API usando gli strumenti e i canali di supporto disponibili.
@@ -47,21 +52,20 @@ const Page = () => (
               </p>
             </div>
 
-            <div>
-              <h5 className="h6">Strumenti correlati</h5>
-              <p><a href="https://developers.italia.it/it/piattaforme">Software development KIT (SDK)</a></p>
-              <p>
-                <a href="https://schema.gov.it">
-                  Schema
-                  <svg class="icon icon-sm align-top">
-                    <use href="/assets/sprite.svg#it-external-link"></use>
-                  </svg>
-                </a>
-              </p>
-            </div>
+            <h5 className="h6">Strumenti correlati</h5>
+            <p><a href="https://developers.italia.it/it/pdnd">Risorse</a></p>
+            <p>
+              <a href="https://schema.gov.it">
+                Schema
+                <svg class="icon icon-sm align-top">
+                  <use href="/assets/sprite.svg#it-external-link"></use>
+                </svg>
+              </a>
+            </p>
           </div>
-          <div className="d-flex flex-column justify-content-between col-md-3 border-right px-3">
-            <div>
+
+          <div className="col-md-3 border-right px-3">
+            <div className="content-section">
               <h4 className="h6">3. VALIDA</h4>
               <p>
                 Controlla che le tue API siano corrette dal punto di vista sintattico
@@ -69,20 +73,18 @@ const Page = () => (
               </p>
             </div>
 
-            <div>
-              <h5 className="h6">Strumenti correlati</h5>
-              <p>
-                <a href="https://italia.github.io/api-oas-checker/">
-                  Validatore Sintattico
-                  <svg class="icon icon-sm align-top">
-                    <use href="/assets/sprite.svg#it-external-link"></use>
-                  </svg>
-                </a>
-              </p>
-            </div>
+            <h5 className="h6">Strumenti correlati</h5>
+            <p>
+              <a href="https://italia.github.io/api-oas-checker/">
+                Validatore Sintattico
+                <svg class="icon icon-sm align-top">
+                  <use href="/assets/sprite.svg#it-external-link"></use>
+                </svg>
+              </a>
+            </p>
           </div>
-          <div className="d-flex flex-column justify-content-between col-md-3 border-right px-3">
-            <div>
+          <div className="col-md-3 border-right px-3">
+            <div className="content-section">
               <h4 className="h6">4. PUBBLICA</h4>
               <p>
                 Pubblica gli e-service, composti da una o più API, in ambiente di collaudo
@@ -91,17 +93,15 @@ const Page = () => (
               </p>
             </div>
 
-            <div>
-              <h5 className="h6">Strumenti correlati</h5>
-              <p>
-                <a href="https://selfcare.pagopa.it/auth/login">
-                  Piattaforma Digitale Nazionale Dati (PDND)
-                  <svg class="icon icon-sm align-top">
-                    <use href="/assets/sprite.svg#it-external-link"></use>
-                  </svg>
-                </a>
-              </p>
-            </div>
+            <h5 className="h6">Strumenti correlati</h5>
+            <p>
+              <a href="https://selfcare.pagopa.it/auth/login">
+                Piattaforma Digitale Nazionale Dati (PDND)
+                <svg class="icon icon-sm align-top">
+                  <use href="/assets/sprite.svg#it-external-link"></use>
+                </svg>
+              </a>
+            </p>
           </div>
         </div>
 
@@ -123,9 +123,9 @@ const Page = () => (
 
             <h3 className="h5 mt-4">Catalogo API</h3>
             <p>
-              Promuove la visibilità e l’uso delle API pubblicate su PDND, permettendo agli
-              enti di valutare come integrarle efficacemente con i propri servizi, rendendole
-              ancora più funzionali per l’utente.
+              Rende disponibili le API pubblicate su PDND, permettendo agli enti di valutare
+              come integrarle efficacemente con i propri servizi, facendoli diventare ancora
+              più funzionali per l’utente.
             </p>
             <Link className="btn btn-white btn-outline-primary mb-4" to="/it/interoperabilita/api">Scopri di più</Link>
 

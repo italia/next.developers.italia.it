@@ -119,7 +119,12 @@ const Page = () => (
               e i livelli di autorizzazione dei soggetti abilitati, affinché avvenga in modo
               semplice e sicuro.
             </p>
-            <button type="button" className="btn btn-white btn-outline-primary mb-4">Scopri di più</button>
+            <Link
+              className="btn btn-white btn-outline-primary mb-4"
+              to="https://selfcare.pagopa.it/auth/login"
+            >
+              Scopri di più
+            </Link>
 
             <h3 className="h5 mt-4">Catalogo API</h3>
             <p>
@@ -127,7 +132,12 @@ const Page = () => (
               come integrarle efficacemente con i propri servizi, facendoli diventare ancora
               più funzionali per l’utente.
             </p>
-            <Link className="btn btn-white btn-outline-primary mb-4" to="/it/interoperabilita/api">Scopri di più</Link>
+            <Link
+              className="btn btn-white btn-outline-primary mb-4"
+              to="https://selfcare.pagopa.it/auth/login"
+            >
+              Scopri di più
+            </Link>
 
             <h3 className="h5 mt-4">Schema</h3>
             <p>
@@ -135,7 +145,13 @@ const Page = () => (
               semantica dei dati che permette di ricercare e utilizzare risorse già standardizzate e condivise
               per supportare lo sviluppo di API semanticamente e sintatticamente interoperabili.
             </p>
-            <button type="button" className="btn btn-white btn-outline-primary">Scopri di più</button>
+            <Link
+              className="btn btn-white btn-outline-primary mb-4"
+              to="https://schema.gov.it"
+            >
+              Scopri di più
+            </Link>
+
           </div>
           <div className="col-md-6 mt-4">
             <img width="100%" src="/assets/graph.svg" alt="" />

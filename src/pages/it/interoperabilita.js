@@ -132,12 +132,15 @@ const Page = () => (
               come integrarle efficacemente con i propri servizi, facendoli diventare ancora
               più funzionali per l’utente.
             </p>
-            <Link
-              className="btn btn-white btn-outline-primary mb-4"
-              to="https://selfcare.pagopa.it/auth/login"
+            <a
+              className="font-weight-bold"
+              href="https://selfcare.pagopa.it/auth/login"
             >
-              Scopri di più
-            </Link>
+              Accedi al catalogo API
+              <svg class="icon icon-sm align-top">
+                <use href="/assets/sprite.svg#it-external-link"></use>
+              </svg>
+            </a>
 
             <h3 className="h5 mt-4">Schema</h3>
             <p>
@@ -145,13 +148,15 @@ const Page = () => (
               semantica dei dati che permette di ricercare e utilizzare risorse già standardizzate e condivise
               per supportare lo sviluppo di API semanticamente e sintatticamente interoperabili.
             </p>
-            <Link
-              className="btn btn-white btn-outline-primary mb-4"
-              to="https://schema.gov.it"
+            <a
+              className="font-weight-bold"
+              href="https://schema.gov.it"
             >
-              Scopri di più
-            </Link>
-
+              Accedi a Schema
+              <svg class="icon icon-sm align-top">
+                <use href="/assets/sprite.svg#it-external-link"></use>
+              </svg>
+            </a>
           </div>
           <div className="col-md-6 mt-4">
             <img width="100%" src="/assets/graph.svg" alt="" />

@@ -12,7 +12,7 @@ const Page = () => (
         <div className="row mt-5 mb-4">
           <div className="col-md-6">
             <p class="lead h3">
-              Abilita lo scambio semplice e sicuro di informazioni tra tutte le
+              Abilita l’accesso semplice e sicuro alle informazioni di tutte le
               Pubbliche Amministrazioni
             </p>
           </div>

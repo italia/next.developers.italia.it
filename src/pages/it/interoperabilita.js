@@ -34,7 +34,7 @@ const Page = () => (
             <h5 className="h6">Strumenti correlati</h5>
             <p><Link to="https://selfcare.pagopa.it/auth/login">Catalogo API</Link></p>
             <p>
-              <a href="#">
+              <a href="https://www.agid.gov.it/it/dati/basi-dati-interesse-nazionale">
                 Base Dati di Interesse Nazionale <br/ > (BDIN)
                 <svg class="icon icon-sm align-top">
                   <use href="/assets/sprite.svg#it-external-link"></use>

@@ -121,7 +121,7 @@ const Page = () => (
             </p>
             <Link
               className="btn btn-white btn-outline-primary mb-4"
-              to="https://selfcare.pagopa.it/auth/login"
+              to="https://developers.italia.it/it/pdnd"
             >
               Scopri di più
             </Link>

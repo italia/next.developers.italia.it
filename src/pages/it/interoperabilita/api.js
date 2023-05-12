@@ -45,11 +45,11 @@ const Page = ({data: { allEServicesJson: { edges } } }) => (
           <div className="col-md-5">
             <h3 className="h5">Conosci già qual è l’API che fa al caso tuo?</h3>
             <p>
-              Accedi direttamente alla
-              <Link to="https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-digitale-nazionale-dati">
-                Piattaforma Digitale Nazionale Dati - Interoperabilità
+              Vai direttamente a{' '}
+              <Link to="https://selfcare.pagopa.it/auth/login">
+                PDND
               </Link>
-              per integrare i servizi
+              {' '}per integrare i servizi
             </p>
           </div>
         </div>

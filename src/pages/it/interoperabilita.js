@@ -24,12 +24,11 @@ const Page = () => (
             <div className="content-section">
               <h4 className="h6">1. RICERCA</h4>
               <p>
-                Scopri le API disponibili e quali veicolano dati di interesse
-                nazionale e valuta come integrarle nei tuoi servizi
-                o come crearne di innovativi
+                Dopo aver aderito alla Piattaforma Digitale Nazionale Dati (PDND),
+                scopri le API disponibili e quali veicolano dati di interesse nazionale
+                e valuta come integrarle nei servizi o come crearne di innovativi
               </p>
             </div>
-
 
             <h5 className="h6">Strumenti correlati</h5>
             <p><Link to="https://selfcare.pagopa.it/auth/login">Catalogo API</Link></p>
@@ -87,9 +86,8 @@ const Page = () => (
             <div className="content-section">
               <h4 className="h6">4. PUBBLICA</h4>
               <p>
-                Pubblica gli e-service, composti da una o più API, in ambiente di collaudo
-                della Piattaforma Digitale Nazionale Dati (PDND), fai i test e rendili
-                disponibili anche in esercizio
+                Pubblica gli e-service, composti da una o più API, in ambiente di collaudo della
+                PDND, fai i test e rendili disponibili anche in esercizio
               </p>
             </div>
 

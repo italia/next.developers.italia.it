@@ -36,7 +36,7 @@ const Page = () => (
             <p>
               <a href="https://www.agid.gov.it/it/dati/basi-dati-interesse-nazionale">
                 Base Dati di Interesse Nazionale <br/ > (BDIN)
-                <svg class="icon icon-sm align-top">
+                <svg className="icon icon-sm align-top external-link-icon">
                   <use href="/assets/sprite.svg#it-external-link"></use>
                 </svg>
               </a>
@@ -57,7 +57,7 @@ const Page = () => (
             <p>
               <a href="https://schema.gov.it">
                 Schema
-                <svg class="icon icon-sm align-top">
+                <svg className="icon icon-sm align-top external-link-icon">
                   <use href="/assets/sprite.svg#it-external-link"></use>
                 </svg>
               </a>
@@ -77,7 +77,7 @@ const Page = () => (
             <p>
               <a href="https://italia.github.io/api-oas-checker/">
                 Validatore Sintattico
-                <svg class="icon icon-sm align-top">
+                <svg className="icon icon-sm align-top external-link-icon">
                   <use href="/assets/sprite.svg#it-external-link"></use>
                 </svg>
               </a>
@@ -97,7 +97,7 @@ const Page = () => (
             <p>
               <a href="https://selfcare.pagopa.it/auth/login">
                 Piattaforma Digitale Nazionale Dati (PDND)
-                <svg class="icon icon-sm align-top">
+                <svg className="icon icon-sm align-top external-link-icon">
                   <use href="/assets/sprite.svg#it-external-link"></use>
                 </svg>
               </a>
@@ -237,7 +237,7 @@ const Page = () => (
       </p>
       <Link to="https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita">
         Consulta le linee guida
-        <svg class="icon icon-sm align-top">
+        <svg className="icon icon-sm align-top external-link-icon">
           <use href="/assets/sprite.svg#it-external-link"></use>
         </svg>
       </Link>

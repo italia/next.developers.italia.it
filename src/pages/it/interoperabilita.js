@@ -31,7 +31,13 @@ const Page = () => (
             </div>
 
             <h5 className="h6">Strumenti correlati</h5>
-            <p><Link to="https://selfcare.pagopa.it/auth/login">Catalogo API</Link></p>
+            <p>
+              <Link
+                to="https://www.interop.pagopa.it"
+              >
+                Piattaforma Digitale Nazionale Dati (PDND)
+              </Link>
+            </p>
             <p>
               <a href="https://www.agid.gov.it/it/dati/basi-dati-interesse-nazionale">
                 Base Dati di Interesse Nazionale <br/ > (BDIN)
@@ -87,14 +93,14 @@ const Page = () => (
               <h4 className="h6">4. PUBBLICA</h4>
               <p>
                 Pubblica gli e-service, composti da una o più API, in ambiente di collaudo della
-                PDND, fai i test e rendili disponibili anche in esercizio
+                PDND, fai i test e rendili disponibili sul catalogo anche in esercizio
               </p>
             </div>
 
             <h5 className="h6">Strumenti correlati</h5>
             <p>
               <a href="https://selfcare.pagopa.it/auth/login">
-                Piattaforma Digitale Nazionale Dati (PDND)
+                Catalogo API
                 <svg className="icon icon-sm align-top external-link-icon">
                   <use href="/assets/sprite.svg#it-external-link"></use>
                 </svg>
@@ -126,9 +132,9 @@ const Page = () => (
 
             <h3 className="h5 mt-4">Catalogo API</h3>
             <p>
-              Rende disponibili le API pubblicate su PDND, permettendo agli enti di valutare
-              come integrarle efficacemente con i propri servizi, facendoli diventare ancora
-              più funzionali per l’utente.
+              Rende disponibili le API pubblicate su PDND agli enti aderenti, permettendo
+              loro di valutare come integrarle efficacemente con i propri servizi, facendoli
+              diventare ancora più funzionali per l’utente.
             </p>
             <Link
               className="btn btn-white btn-outline-primary mb-4"
@@ -227,7 +233,7 @@ const Page = () => (
 
   <section className="container pb-5 mb-2">
     <div className="row">
-      <div className="col-12 col-md-6 mt-5 pt-3">
+      <div className="col-12 col-md-6 pr-5 mt-5 pt-3">
         <h3>Linea guida modello interoperabilità (ModI)</h3>
         <p>
           Individuano le tecnologie e gli standard che le Pubbliche Amministrazioni

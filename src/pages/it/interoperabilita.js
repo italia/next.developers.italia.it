@@ -228,19 +228,34 @@ const Page = () => (
   </section>
 
   <section className="container pb-5 mb-2">
-    <div className="col-md-6 mt-5 pt-3">
-      <h3>Linea guida modello interoperabilità (ModI)</h3>
-      <p>
-        Individuano le tecnologie e gli standard che le Pubbliche Amministrazioni
-        devono considerare durante la realizzazione dei propri sistemi
-        informatici, al fine di permettere l’interoperabilità.
-      </p>
-      <Link to="https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita">
-        Consulta le linee guida
-        <svg className="icon icon-sm align-top external-link-icon">
-          <use href="/assets/sprite.svg#it-external-link"></use>
-        </svg>
-      </Link>
+    <div className="row">
+      <div className="col-12 col-md-6 mt-5 pt-3">
+        <h3>Linea guida modello interoperabilità (ModI)</h3>
+        <p>
+          Individuano le tecnologie e gli standard che le Pubbliche Amministrazioni
+          devono considerare durante la realizzazione dei propri sistemi
+          informatici, al fine di permettere l’interoperabilità.
+        </p>
+        <Link to="https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita">
+          Consulta le linee guida
+          <svg className="icon icon-sm align-top external-link-icon">
+            <use href="/assets/sprite.svg#it-external-link"></use>
+          </svg>
+        </Link>
+      </div>
+
+      <div className="col-12 col-md-6 mt-5 pt-3">
+        <h3>Esempi di API</h3>
+        <p>
+          Una selezione di API REST italiane a disposizione di chi sviluppa software.
+        </p>
+        <Link to="https://developers.italia.it/it/api">
+          Consulta gli esempi di API
+          <svg className="icon icon-sm align-top external-link-icon">
+            <use href="/assets/sprite.svg#it-external-link"></use>
+          </svg>
+        </Link>
+      </div>
     </div>
   </section>
 

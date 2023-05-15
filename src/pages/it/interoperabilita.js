@@ -13,7 +13,7 @@ const Page = () => (
           <div className="col-md-6">
             <p class="lead h3">
               Abilita l’accesso semplice e sicuro alle informazioni di tutte le
-              Pubbliche Amministrazioni
+              Pubbliche Amministrazioni.
             </p>
           </div>
         </div>

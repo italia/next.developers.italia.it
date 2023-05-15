@@ -40,7 +40,7 @@ const Page = () => (
             </p>
             <p>
               <a href="https://www.agid.gov.it/it/dati/basi-dati-interesse-nazionale">
-                Base Dati di Interesse Nazionale <br/ > (BDIN)
+                Basi Dati di Interesse Nazionale <br/ > (BDIN)
                 <svg className="icon icon-sm align-top external-link-icon">
                   <use href="/assets/sprite.svg#it-external-link"></use>
                 </svg>

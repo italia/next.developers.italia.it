@@ -132,7 +132,7 @@ const Page = () => (
 
             <h3 className="h5 mt-4">Catalogo API</h3>
             <p>
-              Rende disponibili le API pubblicate su PDND agli enti aderenti, permettendo
+              Rende disponibili le API pubblicate su PDND agli Enti aderenti, permettendo
               loro di valutare come integrarle efficacemente con i propri servizi, facendoli
               diventare ancora più funzionali per l’utente.
             </p>

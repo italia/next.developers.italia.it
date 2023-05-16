@@ -234,7 +234,7 @@ const Page = () => (
   <section className="container pb-5 mb-2">
     <div className="row">
       <div className="col-12 col-md-6 pr-5 mt-5 pt-3">
-        <h3>Linea guida modello interoperabilità (ModI)</h3>
+        <h3>Linee guida modello interoperabilità (ModI)</h3>
         <p>
           Individuano le tecnologie e gli standard che le Pubbliche Amministrazioni
           devono considerare durante la realizzazione dei propri sistemi

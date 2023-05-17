@@ -36,6 +36,9 @@ const Page = () => (
                 to="https://www.interop.pagopa.it"
               >
                 Piattaforma Digitale Nazionale Dati (PDND)
+                <svg className="icon icon-sm align-top external-link-icon">
+                  <use href="/assets/sprite.svg#it-external-link"></use>
+                </svg>
               </Link>
             </p>
             <p>

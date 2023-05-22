@@ -54,7 +54,6 @@ export const Layout = ({ children }) => {
 <meta property="og:locale" content="it"/>
 <meta name="description" content="Sviluppiamo i servizi pubblici, insieme"/>
 <meta property="og:description" content="Sviluppiamo i servizi pubblici, insieme"/>
-<link rel="canonical" href="https://next.developers.italia.it/it/api.html"/>
 <meta property="og:site_name" content="Developers Italia"/>
 <meta name="twitter:card" content="summary"/>
 <meta property="twitter:title" content="API"/>
@@ -263,7 +262,7 @@ export const Layout = ({ children }) => {
 
       <div className="Header-title mr-auto">
         <h1 className="Header-titleLink">
-          <a href="/">Developers Italia
+          <a href="https://developers.italia.it">Developers Italia
 
           </a>
           <span className="d-none d-lg-block Header-subtitle">Sviluppiamo i servizi pubblici, insieme</span>

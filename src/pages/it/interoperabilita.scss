@@ -1,14 +1,21 @@
 @media (min-width: 768px) {
-    .content-section {
-      height: 20rem;
-    }
+  .content-section {
+    height: 21rem;
+  }
 }
+
 @media (min-width: 992px) {
-    .content-section {
-      height: 12rem;
-    }
+  .content-section {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-section {
+    height: 12rem;
+  }
 }
 
 .external-link-icon {
-    fill : #06c;
+  fill: #06c;
 }

@@ -61,6 +61,14 @@ const Page = () => (
             </div>
 
             <h5 className="h6">Strumenti correlati</h5>
+            <p>
+              <a href="https://teamdigitale.github.io/dati-semantic-doc-introduzione-semantica/">
+                Introduzione alla semantica dei dati
+                <svg className="icon icon-sm align-top external-link-icon">
+                  <use href="/assets/sprite.svg#it-external-link"></use>
+                </svg>
+              </a>
+            </p>
             <p><a href="https://developers.italia.it/it/pdnd">Risorse</a></p>
             <p>
               <a href="https://schema.gov.it">
@@ -70,8 +78,8 @@ const Page = () => (
                 </svg>
               </a>
             </p>
-          </div>
 
+          </div>
           <div className="col-md-3 border-right px-3">
             <div className="content-section">
               <h4 className="h6">3. VALIDA</h4>

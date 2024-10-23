@@ -82,17 +82,25 @@ const Page = () => (
           </div>
           <div className="col-md-3 border-right px-3">
             <div className="content-section">
-              <h4 className="h6">3. VALIDA</h4>
+              <h4 className="h6">3. VERIFICA</h4>
               <p>
                 Controlla che le tue API siano corrette dal punto di vista sintattico
-                con l’aiuto del validatore durante le fasi di sviluppo
+                con l’aiuto dell'API OAS checker durante le fasi di sviluppo
               </p>
             </div>
 
             <h5 className="h6">Strumenti correlati</h5>
             <p>
               <a href="https://italia.github.io/api-oas-checker/">
-                Validatore Sintattico
+                API OAS checker
+                <svg className="icon icon-sm align-top external-link-icon">
+                  <use href="/assets/sprite.svg#it-external-link"></use>
+                </svg>
+              </a>
+            </p>
+            <p>
+              <a href="https://github.com/italia/api-oas-checker-rules">
+                Regole per il controllo automatico di specifiche OpenAPI
                 <svg className="icon icon-sm align-top external-link-icon">
                   <use href="/assets/sprite.svg#it-external-link"></use>
                 </svg>
@@ -110,7 +118,7 @@ const Page = () => (
 
             <h5 className="h6">Strumenti correlati</h5>
             <p>
-              <a href="https://selfcare.pagopa.it/auth/login">
+              <a href="https://www.interop.pagopa.it/catalogo">
                 Catalogo API
                 <svg className="icon icon-sm align-top external-link-icon">
                   <use href="/assets/sprite.svg#it-external-link"></use>
@@ -149,7 +157,7 @@ const Page = () => (
             </p>
             <Link
               className="btn btn-white btn-outline-primary mb-4"
-              to="https://selfcare.pagopa.it/auth/login"
+              to="https://www.interop.pagopa.it/catalogo"
             >
               Scopri di più
             </Link>
